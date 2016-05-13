@@ -1,0 +1,43 @@
+body {
+    vertical-align: baseline;
+    background-color: aqua;
+    margin: 0;
+
+}
+
+ul {
+    margin: 0;
+	padding: 0;
+
+}
+
+.container-menu {
+    background: #3caa3c;
+    height: 100vh;
+    max-width: 200px;
+    position: fixed;
+    right: 0px;
+}
+
+.main-menu, .main-menu-icon {
+    background: #3caa3c;
+} 
+
+.main-menu, .main-menu-icon {
+    list-style-type: none;
+}
+
+.main-menu li a, 
+.main-menu-icon {
+    display: block;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    color: red;
+}
+
+.main-menu li a:hover, .main-menu-icon:hover {
+    background-color: #0bda51;
+}
+
+
