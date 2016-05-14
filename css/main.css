@@ -1,43 +1,97 @@
-body {
-    vertical-align: baseline;
-    background-color: aqua;
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, ul, li footer, header, hgroup, menu, nav {
     margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
 
+
+
+
+footer, header, menu, nav, section {
+    display: block;
 }
 
 ul {
     margin: 0;
-	padding: 0;
-
+    padding: 0;
+    list-style: none;
 }
 
-.container-menu {
+
+#header {
     background: #3caa3c;
-    height: 100vh;
-    max-width: 200px;
+    color: #d1f1e9;
+    height: 100%;
     position: fixed;
-    right: 0px;
+    text-align: center;
+    top: 0;
+    width: 23em;
+    right: 0;
 }
 
-.main-menu, .main-menu-icon {
-    background: #3caa3c;
-} 
-
-.main-menu, .main-menu-icon {
-    list-style-type: none;
+#main {
+    padding-right: 23em;
 }
 
-.main-menu li a, 
-.main-menu-icon {
-    display: block;
-    padding: 20px;
-    font-weight: bold;
-    font-size: 16px;
-    color: red;
+#header > footer {
+    bottom: 0;
+    padding: 2em;
+    position: absolute;
+    width: 100%;
 }
 
-.main-menu li a:hover, .main-menu-icon:hover {
-    background-color: #0bda51;
+.footer-contacts {
+    width: 23em;
+    font-size: 0;
 }
 
+.icon {
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.icon-vk {
+    width: 32px;
+    height: 32px;
+    background-image: url("/img/contacts/vk.png");
+    background-repeat: no-repeat;
+}
+
+.icon-facebook {
+    width: 32px;
+    height: 32px;
+    background-image: url("/img/contacts/facebook.png");
+    background-repeat: no-repeat;
+}
+
+.icon-git {
+    width: 32px;
+    height: 32px;
+    background-image: url("/img/contacts/git.png");
+    background-repeat: no-repeat;
+}
+.icon-skype {
+    width: 32px;
+    height: 32px;
+    background-image: url("/img/contacts/skype.png");
+    background-repeat: no-repeat;
+}
+
+.icon-telegram {
+    width: 32px;
+    height: 32px;
+    background-image: url("/img/contacts/telegram.png");
+    background-repeat: no-repeat;
+}
+
+.icon-mail {
+    width: 32px;
+    height: 32px;
+    background-image: url("/img/contacts/mail.png");
+    background-repeat: no-repeat;
+}
 
