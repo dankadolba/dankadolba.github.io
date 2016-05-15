@@ -1,4 +1,4 @@
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, ul, li footer, header, hgroup, menu, nav {
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, ul, li, footer, header, menu, nav {
     margin: 0;
     padding: 0;
     border: 0;
@@ -10,11 +10,15 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, ul, li footer, header, hgro
 
 
 
-footer, header, menu, nav, section {
+footer, header, menu, nav, section, article {
     display: block;
 }
 
-ul {
+#text {
+    padding-right: 23em;
+}
+
+#header ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -32,8 +36,8 @@ ul {
     right: 0;
 }
 
-#main {
-    padding-right: 23em;
+.avatar {
+    border-radius: 50%;
 }
 
 #header > footer {
@@ -42,6 +46,8 @@ ul {
     position: absolute;
     width: 100%;
 }
+
+
 
 .footer-contacts {
     width: 23em;
@@ -93,5 +99,140 @@ ul {
     height: 32px;
     background-image: url("/img/contacts/mail.png");
     background-repeat: no-repeat;
+}
+
+div section {
+    border: 0;
+    border-bottom: 0.1em;
+    border-style: solid;
+    border-bottom-color: #6FFF1C;
+}
+
+.footer-link {
+    text-align: center;
+
+}
+
+
+#about-me:before {
+    height: 20em;
+    background-image: url("/img/headerbugimage.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    content: "";
+}
+
+
+
+#main .container {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+}
+
+#main h2 {
+    color: #4acaa8;
+    font-size: 3em;
+    padding-bottom: 1em;
+}
+
+.head p {
+    color: gray;
+    font-size: 1.5em;
+}
+
+#main h3 {
+    color: #4acaa8;
+    font-size: 3em;
+    padding-bottom: 0.5em;
+}
+
+#resume a {
+    
+}
+
+#resume p {
+    color: gray;
+    text-align: center;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    font-size: 1.5em;
+}
+
+
+.feature-icons {
+	list-style: none;
+    margin-top: 1em;
+    column-count: 2;
+}
+
+.feature-icons li {
+/*    margin-left: 5em;*/
+    margin-bottom: 2em;
+    padding-right: 2em;
+    padding-left: 3em;
+    padding-top: 0.5em;
+    height: 2em;
+    color: #7d7f7d;
+    text-align: center;
+}
+
+
+.icon-code {
+    background-image: url("/img/skills/code.png");
+    background-repeat: no-repeat;
+}
+
+.icon-book {
+    background-image: url("/img/skills/book.png");
+    background-repeat: no-repeat;
+}
+
+.icon-bug {
+    background-image: url("/img/skills/findbug.png");
+    background-repeat: no-repeat;
+}
+
+.icon-collectinformation {
+    background-image: url("/img/skills/collectinformation.png");
+    background-repeat: no-repeat;
+}
+
+article {
+    margin-bottom: 2em;
+}
+
+.p-projects {
+    color: gray;
+    font-size: 1.25em;
+    margin-bottom: 2em;
+}
+
+
+.texttoproject {
+    height: 400px;
+    float: right; 
+    min-width: 330px;
+    text-align: center;
+}
+
+h4 {
+    color: #332f2c;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 1.5em;
+}
+
+.texttoproject p {
+    color: gray;
+    font-size: 1.25em;
+}
+
+article > a > img {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
 }
 
