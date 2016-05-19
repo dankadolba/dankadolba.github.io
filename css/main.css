@@ -119,6 +119,7 @@ div section {
 }
 
 
+
 .head p {
     color: gray;
     font-size: 1.5em;
@@ -399,6 +400,14 @@ h4 {
     color: black;
 }
 
+.main-contact {
+    display:none;
+}
+
+div section .main-contact {
+    
+}
+
 @media screen and (min-width: 1680px) {
 
 }
@@ -457,11 +466,11 @@ h4 {
 @media screen and (max-width: 750px) {
     
     #header {
-        width: 12em;
+        display: none;
     }
     
     #text {
-        margin-right: 12em;
+        margin-right: 0;
     }
     
     .avatar {
@@ -498,6 +507,44 @@ h4 {
     
     .attainment li {
     padding-bottom: 1em;
+    }
+    
+    .container .contact-information {
+        text-align: center;
+    }
+    
+    .main-contact  {
+        display: block;
+    }
+    
+    .contact-information a:nth-child(1) {
+        margin-left: 0;
+    }
+    
+}
+
+
+@media screen and (max-height: 800px) {
+    #header {
+        display: none;
+    }
+        
+    #text {
+        right:0;
+        width: 100%;
+    }
+    
+    
+    .container .contact-information {
+        text-align: center;
+    }
+    
+    .main-contact  {
+        display: block;
+    }
+    
+    .contact-information a:nth-child(1) {
+        margin-left: 0;
     }
     
 }
