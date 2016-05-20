@@ -442,6 +442,7 @@ div section .main-contact {
     .attainment li {
     padding-bottom: 1em;
     }
+    
 }    
 
 @media screen and (min-width: 750px) and (max-width: 900px) {
@@ -481,12 +482,10 @@ div section .main-contact {
         font-size: 0.9em;
     }
     
-/*
     .fun-img {
         display:none;
     }
     
-*/
     .texttoproject {
         width:100%;
         height: auto;
@@ -519,6 +518,18 @@ div section .main-contact {
     
     .contact-information a:nth-child(1) {
         margin-left: 0;
+    }
+    
+    .education li {
+        margin-bottom: 3em;
+    }
+    
+    .feature-icons li {
+        margin-bottom: 3em;    
+    }
+    
+    .attainment li {
+        margin-bottom: 3em;
     }
     
 }
