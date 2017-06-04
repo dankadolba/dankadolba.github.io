@@ -190,27 +190,27 @@ code {
 }
 
 .BAD {
-    background-color:  #ffff00;
+    background-color:  yellow;
     text-align: center;
 }
 
 .CerbeR {
-    background-color: #ffae42;
+    background-color: orange;
     text-align: center;
 }
 
 .VODKA {
-    background-color: #ec7c26;
+    background-color: red;
     text-align: center;
 }
 
 .DefDest {
-    background-color: #90ee90;
+    background-color: greenyellow;
     text-align: center;
 }
 
 .U {
-    background-color: #ff8c69;
+    background-color: cyan;
     text-align: center;
 }
 
