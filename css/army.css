@@ -190,27 +190,27 @@ code {
 }
 
 .BAD {
-    background-color:  yellow;
+    background-color:  #ffff00;
     text-align: center;
 }
 
 .CerbeR {
-    background-color: orange;
+    background-color: #ffae42;
     text-align: center;
 }
 
 .VODKA {
-    background-color: red;
+    background-color: #ec7c26;
     text-align: center;
 }
 
 .DefDest {
-    background-color: #4daffa;
+    background-color: #90ee90;
     text-align: center;
 }
 
 .U {
-    background-color: cyan;
+    background-color: #ff8c69;
     text-align: center;
 }
 
@@ -379,7 +379,14 @@ code {
     background: url(/img/u/hero.gif) 5px center no-repeat;
 }
 
+.full_attack, .attack, .wheat {
+    font-weight: bold;
+}
 
+.date {
+    padding-left: 5px;
+    padding-right: 5px;
+}
 
 
 
