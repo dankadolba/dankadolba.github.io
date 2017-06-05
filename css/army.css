@@ -141,9 +141,14 @@ table {
 caption {
     font: 20pt italic;
     font-weight: bold;
+/*
     margin-bottom: 15px;
-    margin-top: 15px;
-    
+    margin-top: 15px;   
+*/
+}
+
+.catas {
+    background-color: red;
 }
 
 code {
@@ -190,27 +195,27 @@ code {
 }
 
 .BAD {
-    background-color:  #ffff00;
+    background-color:  yellow;
     text-align: center;
 }
 
 .CerbeR {
-    background-color: #ffae42;
+    background-color: orange;
     text-align: center;
 }
 
 .VODKA {
-    background-color: #ec7c26;
+    background-color: red;
     text-align: center;
 }
 
 .DefDest {
-    background-color: #90ee90;
+    background-color: #4daffa;
     text-align: center;
 }
 
 .U {
-    background-color: #ff8c69;
+    background-color: cyan;
     text-align: center;
 }
 
@@ -220,7 +225,7 @@ code {
     font-weight: bold;
 }
 
-.nickname, .TURKEY, .NoLimit, .COFWAR, .NDWW {
+.nickname, .TURKEY, .NoLimit, .COFWAR, .NDWW, .AHILLE, .ITA {
     font-size: 15px;
     font-weight: bold;
 
@@ -244,6 +249,21 @@ code {
 
 .COFWAR {
     background-color: #00bfff;
+    text-align: center;
+}
+
+.AHILLE {
+    background-color: #ea899a;
+    text-align: center;
+}
+
+.ITA {
+    background-color: #ed375b;
+    text-align: center;
+}
+
+.VICTORY {
+    background-color: #90ee90;
     text-align: center;
 }
 
@@ -383,11 +403,15 @@ code {
     font-weight: bold;
 }
 
+
 .date {
     padding-left: 5px;
     padding-right: 5px;
 }
 
-
+.action {
+    padding-right: 15px;
+    font-size: 15px;
+}
 
 
