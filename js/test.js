@@ -10,7 +10,7 @@ Highcharts.chart('container', {
         text: 'чужие оффки'
     },
     xAxis: {
-        gridLineWidth: 1,
+        gridLineWidth: 2,
         title: {
             enabled: true,
             text: 'x'
@@ -34,6 +34,7 @@ Highcharts.chart('container', {
         }]
     },
     yAxis: {
+        gridLineWidth: 2,
         title: {
             text: 'y'
         },
