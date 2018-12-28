@@ -1168,8 +1168,7 @@ Highcharts.chart('container', {
         name: 'Катоточки',
         type: 'scatter',
         color: Highcharts.getOptions().colors[10],
-        //data: [[-195,86]]
-        data:[]
+        data: [[-195,86],[-210,25],[-175,116],[-249,33],[-240,93],[-212,136],[-167,142],[-148,86]]
     }, {
         name: 'SMURFS',
         type: 'scatter',
@@ -1190,7 +1189,7 @@ Highcharts.chart('container', {
         name: "TC",
         type: 'scatter',
         color: Highcharts.getOptions().colors[1],
-        data: [[-209, 56],[-217,60]]
+        data: [[-209, 56],[-217,60],[-185,53],[-204,83]]
     },  {
         name: "Ufffff",
         type: 'scatter',
