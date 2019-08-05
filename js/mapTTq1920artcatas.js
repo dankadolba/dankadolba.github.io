@@ -1245,12 +1245,13 @@ Highcharts.chart('container', {
         
     },
 			
+			
     
         {
         name: 'Нужны',
         type: 'scatter',
         color: Highcharts.getOptions().colors[1],
-        data: [[12,-228],[-126,-158],[-233,-54],[-234,45],]
+        data: [[12,-228],[-126,-158],[-233,-54],[-234,45],[17,-41],[6,-46],[14,-50]]
         
     }
     ],
