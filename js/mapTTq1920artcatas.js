@@ -72,8 +72,7 @@ Highcharts.chart('container', {
 [175,-138],
 [-31,-220],
 [-206,-84]],
-        color: Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0.5).get(),
-       // enableMouseTracking: false
+color: Highcharts.getOptions().colors[0],       // enableMouseTracking: false
     },
     //малые тайники
     {
@@ -86,8 +85,7 @@ Highcharts.chart('container', {
 [159,6],
 [85,-134],
 [-74,-140]],
-        color: Highcharts.Color(Highcharts.getOptions().colors[1]).setOpacity(0.5).get(),
-    },
+color: Highcharts.getOptions().colors[1],    },
     //малая прочка    
     {
         name: 'Малая прочка 230',
@@ -99,8 +97,7 @@ Highcharts.chart('container', {
 [-45,-313],
 [-294,-120],
 [-251,195]],
-        color: Highcharts.Color(Highcharts.getOptions().colors[2]).setOpacity(0.5).get(),
-    }, 
+color: Highcharts.getOptions().colors[2],    }, 
     //малая скорость
     {
         name: 'Малая скорость 207',
@@ -112,8 +109,7 @@ Highcharts.chart('container', {
 [60,-280],
 [-213,-192],
 [-272,88]],
-        color: Highcharts.Color(Highcharts.getOptions().colors[3]).setOpacity(0.5).get(),
-    },
+color: Highcharts.getOptions().colors[3],    },
    //малая разведка    
     {
         name: 'Малая разведка 93',
@@ -125,8 +121,7 @@ Highcharts.chart('container', {
 [118,46],
 [100,-79],
 [-18,-126]],
-        color: Highcharts.Color(Highcharts.getOptions().colors[4]).setOpacity(0.5).get(),
-    },
+color: Highcharts.getOptions().colors[4],    },
 	
 	
     //малая диета
@@ -140,8 +135,7 @@ Highcharts.chart('container', {
 [134,-215],
 [-119,-225],
 [-254,-10]],
-        color: Highcharts.Color(Highcharts.getOptions().colors[5]).setOpacity(0.5).get(),
-    },
+color: Highcharts.getOptions().colors[5],    },
 
 
     //Малый дурак
@@ -159,8 +153,7 @@ Highcharts.chart('container', {
 [-225,68],
 [135,193],
 [4,-236]],
-        color: Highcharts.Color(Highcharts.getOptions().colors[7]).setOpacity(0.5).get(),
-    },	
+color: Highcharts.getOptions().colors[7],    },	
 
     //малый БАБС
     {
@@ -173,8 +166,7 @@ Highcharts.chart('container', {
 [181,-59],
 [41,-185],
 [-140,-127]],
-        color: Highcharts.Color(Highcharts.getOptions().colors[6]).setOpacity(0.5).get(),
-    },
+color: Highcharts.getOptions().colors[6],    },
         
     // БОЛЬШИЕ АРТЫ
         
@@ -187,8 +179,7 @@ Highcharts.chart('container', {
 [93,-13],
 [-13,-93],
 [-92,13]],
-        color: Highcharts.Color(Highcharts.getOptions().colors[2]).setOpacity(0.5).get(),
-       // enableMouseTracking: false
+color: Highcharts.getOptions().colors[2],       // enableMouseTracking: false
     }, 
     //Большая скорость
     {
@@ -199,8 +190,7 @@ Highcharts.chart('container', {
 [98,-67],
 [-66,-99],
 [-98,66]],
-        color: Highcharts.Color(Highcharts.getOptions().colors[3]).setOpacity(0.5).get(),
-       // enableMouseTracking: false
+color: Highcharts.getOptions().colors[3],       // enableMouseTracking: false
     },
     //Большая разведка
     {
@@ -211,8 +201,7 @@ Highcharts.chart('container', {
 [-226,-66],
 [-64,225],
 [226,64]],
-        color: Highcharts.Color(Highcharts.getOptions().colors[4]).setOpacity(0.5).get(),
-       // enableMouseTracking: false
+color: Highcharts.getOptions().colors[4],       // enableMouseTracking: false
     },  
     //Большая диета
     {
@@ -223,7 +212,7 @@ Highcharts.chart('container', {
 [71,-123],
 [-122,-71],
 [-71,121]],
-        color: Highcharts.Color(Highcharts.getOptions().colors[5]).setOpacity(0.5).get(),
+        color: Highcharts.getOptions().colors[5],
        // enableMouseTracking: false
     },
     //Большой тренер
@@ -235,7 +224,7 @@ Highcharts.chart('container', {
 [12,-165],
 [-165,-12],
 [-12,165]],
-        color: Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0.5).get(),
+        color: Highcharts.getOptions().colors[0],
        // enableMouseTracking: false
     }, 
     //Большой БАБС
@@ -247,7 +236,7 @@ Highcharts.chart('container', {
 [-70,-174],
 [-174,70],
 [71,174]],
-        color: Highcharts.Color(Highcharts.getOptions().colors[6]).setOpacity(0.5).get(),
+        color: Highcharts.getOptions().colors[6],
        // enableMouseTracking: false
     },              
     //Большой тайник
@@ -259,7 +248,7 @@ Highcharts.chart('container', {
 [-158,-142],
 [-141,158],
 [158,141]],
-        color: Highcharts.Color(Highcharts.getOptions().colors[1]).setOpacity(0.5).get(),
+        color: Highcharts.getOptions().colors[1],
        // enableMouseTracking: false
     }, 
 
@@ -269,7 +258,7 @@ Highcharts.chart('container', {
         type: 'spline',
         inverted: true,
         data: [[0,59],[46,37],[-57,-14],[58,-12],[28,-52],[-25,-53],[-47,35]],
-        color: Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0.5).get(),
+        color: Highcharts.getOptions().colors[0],
        // enableMouseTracking: false
     },            
             
