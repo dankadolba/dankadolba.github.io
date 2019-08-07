@@ -64,7 +64,7 @@ Highcharts.chart('container', {
     //малый тренер
     {
         name: 'Малый тренер 161',
-        type: 'spline',
+        type: 'scatter',
         inverted: true,
         data: [[-175,137],
 [31,220],
@@ -77,7 +77,7 @@ color: Highcharts.getOptions().colors[0],       // enableMouseTracking: false
     //малые тайники
     {
         name: 'Малые тайники 114',
-        type: 'spline',
+        type: 'scatter',
         inverted: true,
         data: [[-158,-6],
 [-85,134],
@@ -89,7 +89,7 @@ color: Highcharts.getOptions().colors[1],    },
     //малая прочка    
     {
         name: 'Малая прочка 230',
-        type: 'spline',
+        type: 'scatter',
         inverted: true,
         data: [[45,314],
 [294,119],
@@ -101,7 +101,7 @@ color: Highcharts.getOptions().colors[2],    },
     //малая скорость
     {
         name: 'Малая скорость 207',
-        type: 'spline',
+        type: 'scatter',
         inverted: true,
         data: [[-60,280],
 [213,191],
@@ -113,7 +113,7 @@ color: Highcharts.getOptions().colors[3],    },
    //малая разведка    
     {
         name: 'Малая разведка 93',
-        type: 'spline',
+        type: 'scatter',
         inverted: true,
         data: [[-118,-47],
 [-100,77],
@@ -127,7 +127,7 @@ color: Highcharts.getOptions().colors[4],    },
     //малая диета
     {
         name: 'Малая диета 184',
-        type: 'spline',
+        type: 'scatter',
         inverted: true,
         data: [[-134,215],
 [119,224],
@@ -141,7 +141,7 @@ color: Highcharts.getOptions().colors[5],    },
     //Малый дурак
     {
         name: 'Малый дурак 171',
-        type: 'spline',
+        type: 'scatter',
         inverted: true,
         data: [[-141,188],
 [223,77],
@@ -158,7 +158,7 @@ color: Highcharts.getOptions().colors[7],    },
     //малый БАБС
     {
         name: 'Малый БАБС 138',
-        type: 'spline',
+        type: 'scatter',
         inverted: true,
         data: [[-181,58],
 [-41,186],
@@ -173,7 +173,7 @@ color: Highcharts.getOptions().colors[6],    },
     //Большая прочка
     {
         name: 'Большая прочка 67',
-        type: 'spline',
+        type: 'scatter',
         inverted: true,
         data: [[13,94],
 [93,-13],
@@ -184,7 +184,7 @@ color: Highcharts.getOptions().colors[2],       // enableMouseTracking: false
     //Большая скорость
     {
         name: 'Большая скорость 85',
-        type: 'spline',
+        type: 'scatter',
         inverted: true,
         data: [[66,98],
 [98,-67],
@@ -195,7 +195,7 @@ color: Highcharts.getOptions().colors[3],       // enableMouseTracking: false
     //Большая разведка
     {
         name: 'Большая разведка 171',
-        type: 'spline',
+        type: 'scatter',
         inverted: true,
         data: [[65,-227],
 [-226,-66],
@@ -206,7 +206,7 @@ color: Highcharts.getOptions().colors[4],       // enableMouseTracking: false
     //Большая диета
     {
         name: 'Большая диета 102',
-        type: 'spline',
+        type: 'scatter',
         inverted: true,
         data: [[122,70],
 [71,-123],
@@ -218,7 +218,7 @@ color: Highcharts.getOptions().colors[4],       // enableMouseTracking: false
     //Большой тренер
     {
         name: 'Большой тренер 120',
-        type: 'spline',
+        type: 'scatter',
         inverted: true,
         data: [[165,12],
 [12,-165],
@@ -230,7 +230,7 @@ color: Highcharts.getOptions().colors[4],       // enableMouseTracking: false
     //Большой БАБС
     {
         name: 'Большой БАБС 138',
-        type: 'spline',
+        type: 'scatter',
         inverted: true,
         data: [[174,-71],
 [-70,-174],
@@ -242,7 +242,7 @@ color: Highcharts.getOptions().colors[4],       // enableMouseTracking: false
     //Большой тайник
     {
         name: 'Большой тайник 153',
-        type: 'spline',
+        type: 'scatter',
         inverted: true,
         data: [[141,-159],
 [-158,-142],
@@ -255,7 +255,7 @@ color: Highcharts.getOptions().colors[4],       // enableMouseTracking: false
     //УНИКИ    
     {
         name: 'Уники 44',
-        type: 'spline',
+        type: 'scatter',
         inverted: true,
         data: [[0,59],[46,37],[-57,-14],[58,-12],[28,-52],[-25,-53],[-47,35]],
         color: Highcharts.getOptions().colors[0],
