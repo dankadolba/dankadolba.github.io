@@ -4,7 +4,7 @@ Highcharts.chart('container', {
         
     },
     title: {
-        text: 'Art+Cata'
+        text: 'Art TTq B 2019-2020'
     },
     subtitle: {
         text: '07.08.19'
@@ -63,7 +63,7 @@ Highcharts.chart('container', {
     //МАЛЫЕ АРТЫ
     //малый тренер
     {
-        name: 'Малый тренер 222',
+        name: 'The trainers slight talent / Малый тренер 222',
         type: 'scatter',
         inverted: true,
         data: [[-175,137],
@@ -76,7 +76,7 @@ color: Highcharts.getOptions().colors[0],       // enableMouseTracking: false
     },
     //малые тайники
     {
-        name: 'Малые тайники 158',
+        name: 'Rivals slight confusion / Малые тайники 158',
         type: 'scatter',
         inverted: true,
         data: [[-158,-6],
@@ -88,7 +88,7 @@ color: Highcharts.getOptions().colors[0],       // enableMouseTracking: false
 color: Highcharts.getOptions().colors[1],    },
     //малая прочка    
     {
-        name: 'Малая прочка 317',
+        name: 'The architects slight secret /Малая прочка 317',
         type: 'scatter',
         inverted: true,
         data: [[45,314],
@@ -100,7 +100,7 @@ color: Highcharts.getOptions().colors[1],    },
 color: Highcharts.getOptions().colors[2],    }, 
     //малая скорость
     {
-        name: 'Малая скорость 286',
+        name: 'The slight titan boots / Малая скорость 286',
         type: 'scatter',
         inverted: true,
         data: [[-60,280],
@@ -112,7 +112,7 @@ color: Highcharts.getOptions().colors[2],    },
 color: Highcharts.getOptions().colors[3],    },
    //малая разведка    
     {
-        name: 'Малая разведка 127',
+        name: 'The eagles slight eyes / Малая разведка 127',
         type: 'scatter',
         inverted: true,
         data: [[-118,-47],
@@ -126,7 +126,7 @@ color: Highcharts.getOptions().colors[4],    },
 	
     //малая диета
     {
-        name: 'Малая диета 254',
+        name: 'Slight diet control / Малая диета 254',
         type: 'scatter',
         inverted: true,
         data: [[-134,215],
@@ -140,7 +140,7 @@ color: Highcharts.getOptions().colors[5],    },
 
     //Малый дурак
     {
-        name: 'Малый дурак 235',
+        name: 'Artefact of the slight fool / Малый дурак 235',
         type: 'scatter',
         inverted: true,
         data: [[-141,188],
@@ -157,7 +157,7 @@ color: Highcharts.getOptions().colors[7],    },
 
     //малый БАБС
     {
-        name: 'Малый БАБС 190',
+        name: 'Slight storage masterplan / Малый БАБС 190',
         type: 'scatter',
         inverted: true,
         data: [[-181,58],
@@ -172,7 +172,7 @@ color: Highcharts.getOptions().colors[6],    },
         
     //Большая прочка
     {
-        name: 'Большая прочка 94',
+        name: 'The architects great secret / Большая прочка 94',
         type: 'scatter',
         inverted: true,
         data: [[13,94],
@@ -183,7 +183,7 @@ color: Highcharts.getOptions().colors[2],       // enableMouseTracking: false
     }, 
     //Большая скорость
     {
-        name: 'Большая скорость 118',
+        name: 'The great titan boots / Большая скорость 118',
         type: 'scatter',
         inverted: true,
         data: [[66,98],
@@ -194,7 +194,7 @@ color: Highcharts.getOptions().colors[3],       // enableMouseTracking: false
     },
     //Большая разведка
     {
-        name: 'Большая разведка 235',
+        name: 'The eagles great eyes / Большая разведка 235',
         type: 'scatter',
         inverted: true,
         data: [[65,-227],
@@ -205,7 +205,7 @@ color: Highcharts.getOptions().colors[4],       // enableMouseTracking: false
     },  
     //Большая диета
     {
-        name: 'Большая диета 141',
+        name: 'Great diet control / Большая диета 141',
         type: 'scatter',
         inverted: true,
         data: [[122,70],
@@ -217,7 +217,7 @@ color: Highcharts.getOptions().colors[4],       // enableMouseTracking: false
     },
     //Большой тренер
     {
-        name: 'Большой тренер 165',
+        name: 'The trainers great talent / Большой тренер 165',
         type: 'scatter',
         inverted: true,
         data: [[165,12],
@@ -229,7 +229,7 @@ color: Highcharts.getOptions().colors[4],       // enableMouseTracking: false
     }, 
     //Большой БАБС
     {
-        name: 'Большой БАБС 187',
+        name: 'Great storage masterplan / Большой БАБС 187',
         type: 'scatter',
         inverted: true,
         data: [[174,-71],
@@ -241,7 +241,7 @@ color: Highcharts.getOptions().colors[4],       // enableMouseTracking: false
     },              
     //Большой тайник
     {
-        name: 'Большой тайник 212',
+        name: 'Rivals great confusion / Большой тайник 212',
         type: 'scatter',
         inverted: true,
         data: [[141,-159],
@@ -254,36 +254,13 @@ color: Highcharts.getOptions().colors[4],       // enableMouseTracking: false
 
     //УНИКИ    
     {
-        name: 'Уники 59',
+        name: 'Unique / Уники 59',
         type: 'scatter',
         inverted: true,
         data: [[0,59],[46,37],[-57,-14],[58,-12],[28,-52],[-25,-53],[-47,35]],
         color: Highcharts.getOptions().colors[0],
        // enableMouseTracking: false
-    },            
-            
-	{
-        name: 'Катоточка',
-        type: 'scatter',
-        color: Highcharts.getOptions().colors[1],
-        data: [[-21, -71], [-30,-5], [-39, 7], [-1,-34], [-39, -11],[-14,-39],
-              [38,-196],[-22,-240],[-45,-196],[-80,-210],[-116,-209],[-162,-162],[-191,-145],[-180,-97],[-210,-81],[-205,-3],[-216,12],[66,-166],[-97,-156],[-146,-104],[-171,-36],[-123,-118],[-17,-188],[-22,-179],[-170,-1],[-58,-153],
-              [-62,55],
-              [-3,-46], [3,-40],[6,-47],[45,-21],[35,-34],[39,-21],[42,-13], [32,-37], [23,-35],[14,-50],
-			  [-62,-55],[-23,-76],
-			  [30,34],[43,12],[17,-41]]
-        
-    },
-			
-			
-    
-    /*    {
-        name: 'Нужны',
-        type: 'scatter',
-        color: Highcharts.getOptions().colors[2],
-        data: [[12,-228],[-126,-158],[-233,-54],[-234,45],[35,-175],]
-        
-    }*/
+    }            
     ],
     tooltip: {
         headerFormat: '<b>{series.name}</b><br>',
