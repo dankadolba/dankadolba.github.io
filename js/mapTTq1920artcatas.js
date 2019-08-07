@@ -217,7 +217,7 @@ color: Highcharts.getOptions().colors[4],       // enableMouseTracking: false
     },
     //Большой тренер
     {
-        name: 'Большой тренер 165,
+        name: 'Большой тренер 165',
         type: 'scatter',
         inverted: true,
         data: [[165,12],
