@@ -4,10 +4,10 @@ Highcharts.chart('container', {
         
     },
     title: {
-        text: 'Zone'
+        text: 'Art+Cata'
     },
     subtitle: {
-        text: '29.07.19'
+        text: '07.08.19'
     },
     xAxis: {
         gridLineWidth: 2,
