@@ -139,7 +139,7 @@ Highcharts.chart('container', {
 [254,9],
 [134,-215],
 [-119,-225],
-[-254,-10],],
+[-254,-10]],
         color: Highcharts.Color(Highcharts.getOptions().colors[5]).setOpacity(0.5).get(),
     },
 
@@ -234,7 +234,7 @@ Highcharts.chart('container', {
         data: [[165,12],
 [12,-165],
 [-165,-12],
-[-12,165],],
+[-12,165]],
         color: Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0.5).get(),
        // enableMouseTracking: false
     }, 
