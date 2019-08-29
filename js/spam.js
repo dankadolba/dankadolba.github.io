@@ -21,6 +21,9 @@ function take(array, count) {
     var users = $('#src').val().trim().split('\n');
     var count = parseInt(this.count.value, 10);
     res = take(users,count)
+    if (count > users.length) {
+        count = users.length;
+    };
     for (var i = 0; i < count; i++) {
         div.insertAdjacentHTML('afterbegin', '<p><a href="'+ res[i] +'">' + res[i] + '</a></p>');
     }
