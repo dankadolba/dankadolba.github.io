@@ -25,7 +25,7 @@ function take(array, count) {
         count = users.length;
     };
     for (var i = 0; i < count; i++) {
-        div.insertAdjacentHTML('afterbegin', '<p><a href="'+ res[i] +'">' + res[i] + '</a></p>');
+        div.insertAdjacentHTML('afterbegin', '<p><a href="'+ res[i] +'" target="_blank">' + res[i] + '</a></p>');
     }
   });
 
