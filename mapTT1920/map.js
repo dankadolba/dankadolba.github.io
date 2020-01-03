@@ -158,7 +158,7 @@ Highcharts.chart('container', {
         name: 'Малый дурак',
         type: 'scatter',
         inverted: true,
-        data: [[230,-28],
+        data: [[-203,-113],
         [169,-158],
         [44,-227],
         [-98,-210],
