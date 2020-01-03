@@ -64,7 +64,7 @@ Highcharts.chart('container', {
     //малый тренер
     {
         name: 'Малый тренер',
-        type: 'spline',
+        type: 'scatter',
         inverted: true,
         data: [[157,151],
         [212,-60],
@@ -78,7 +78,7 @@ Highcharts.chart('container', {
     //малые тайники
     {
         name: 'Малые тайники',
-        type: 'spline',
+        type: 'scatter',
         inverted: true,
         data: [[16,155],
         [142,64],
@@ -91,7 +91,7 @@ Highcharts.chart('container', {
     //малая прочка    
     {
         name: 'Малая прочка',
-        type: 'spline',
+        type: 'scatter',
         inverted: true,
         data: [[301,-86],
         [75,-303],
@@ -104,7 +104,7 @@ Highcharts.chart('container', {
     //малая скорость
     {
         name: 'Малая скорость',
-        type: 'spline',
+        type: 'scatter',
         inverted: true,
         data: [[280,20],
         [157,-233],
@@ -117,7 +117,7 @@ Highcharts.chart('container', {
     //малая разведка    
     {
         name: 'Малая разведка',
-        type: 'spline',
+        type: 'scatter',
         inverted: true,
         data: [[-30,122],
         [90,87],
@@ -130,7 +130,7 @@ Highcharts.chart('container', {
     //малая диета
     {
         name: 'Малая диета',
-        type: 'spline',
+        type: 'scatter',
         inverted: true,
         data: [[228,102],
         [203,-148],
@@ -143,7 +143,7 @@ Highcharts.chart('container', {
     //малый БАБС
     {
         name: 'Малый БАБС',
-        type: 'spline',
+        type: 'scatter',
         inverted: true,
         data: [[82,169],
         [188,13],
@@ -156,7 +156,7 @@ Highcharts.chart('container', {
     //Малый дурак
     {
         name: 'Малый дурак',
-        type: 'spline',
+        type: 'scatter',
         inverted: true,
         data: [[230,-28],
         [169,-158],
@@ -177,7 +177,7 @@ Highcharts.chart('container', {
     //Большая прочка
     {
         name: 'Большая прочка',
-        type: 'spline',
+        type: 'scatter',
         inverted: true,
         data: [[89,-25],
         [-25,-90],
@@ -189,7 +189,7 @@ Highcharts.chart('container', {
     //Большая скорость
     {
         name: 'Большая скорость',
-        type: 'spline',
+        type: 'scatter',
         inverted: true,
         data: [[86,-78],
         [-78,-86],
@@ -201,7 +201,7 @@ Highcharts.chart('container', {
     //Большая разведка
     {
         name: 'Большая разведка',
-        type: 'spline',
+        type: 'scatter',
         inverted: true,
         data: [[-229,-32],
         [-32,228],
@@ -213,7 +213,7 @@ Highcharts.chart('container', {
     //Большая диета
     {
         name: 'Большая диета',
-        type: 'spline',
+        type: 'scatter',
         inverted: true,
         data: [[50,-131],
         [-126,-51],
@@ -225,7 +225,7 @@ Highcharts.chart('container', {
     //Большой тренер
     {
         name: 'Большой тренер',
-        type: 'spline',
+        type: 'scatter',
         inverted: true,
         data: [[-12,-162],
         [-162,12],
@@ -237,7 +237,7 @@ Highcharts.chart('container', {
     //Большой БАБС
     {
         name: 'Большой БАБС',
-        type: 'spline',
+        type: 'scatter',
         inverted: true,
         data: [[-93,-161],
         [-160,93],
@@ -249,7 +249,7 @@ Highcharts.chart('container', {
     //Большой тайник
     {
         name: 'Большой тайник',
-        type: 'spline',
+        type: 'scatter',
         inverted: true,
         data: [[-173,-117],
         [-117,172],
@@ -262,7 +262,7 @@ Highcharts.chart('container', {
     //УНИКИ    
     {
         name: 'Уники',
-        type: 'spline',
+        type: 'scatter',
         inverted: true,
         data: [[58,-8],[34,-51],[-7,58],[-18,-53],[-54,-19],[-49,31],
         [42,41]],
