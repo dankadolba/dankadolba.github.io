@@ -70,7 +70,7 @@ Highcharts.chart('container', {
         [212,-60],
         [53,-213],
         [-157,-152],
-        [210,60],
+        [-210,60],
         [-53,212]],
         color: Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0.5).get(),
        // enableMouseTracking: false
