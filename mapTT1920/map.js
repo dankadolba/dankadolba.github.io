@@ -273,7 +273,7 @@ Highcharts.chart('container', {
     {
         name: 'Катоточки',
         type: 'scatter',
-        color: Highcharts.getOptions().colors[10],
+        color: Highcharts.getOptions().colors[1],
         data: [[-229,-18],
         [-245,-27],
         [-198,-31],
