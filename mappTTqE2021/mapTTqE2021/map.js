@@ -83,12 +83,12 @@ Highcharts.chart('container', {
         type: 'scatter',
         inverted: true,
         data: [
-            [148,-40],
-            [-108,108],
-            [40,147],
-            [148,40],
+            [-40,-148],
             [108,-109],
-            [-40,-148]
+            [148,40],
+            [40,147],
+            [-108,108],
+            [-148,-40]
         ],
         color: Highcharts.Color(Highcharts.getOptions().colors[1]).setOpacity(0.5).get(),
     },
@@ -162,7 +162,6 @@ Highcharts.chart('container', {
             [-78,168],
             [107,152],
             [184,-17],
-            [78,-168],
             [-106,-152]
         ],
         color: Highcharts.Color(Highcharts.getOptions().colors[6]).setOpacity(0.5).get(),
@@ -173,16 +172,16 @@ Highcharts.chart('container', {
         type: 'scatter',
         inverted: true,
         data: [
-            [174,-147],
-            [-85,-211],
-            [85,210],
-            [193,122],
-            [-55,222],
-            [228,-16],
-            [-194,-121],
-            [55,-221],
+            [-174,147],
             [-228,16],
-            [-174,147]
+            [55,-221],
+            [-194,-121],
+            [228,-16],
+            [-55,222],
+            [193,122],
+            [85,210],
+            [-85,-211],
+            [174,-147]
         ],
         color: Highcharts.Color(Highcharts.getOptions().colors[7]).setOpacity(0.5).get(),
     },
@@ -226,7 +225,7 @@ Highcharts.chart('container', {
         data: [
             [112,-199],
             [-199,-111],
-            [-111,199],
+            [-111,-199],
             [199,111]
         ],
         color: Highcharts.Color(Highcharts.getOptions().colors[4]).setOpacity(0.5).get(),
@@ -339,7 +338,7 @@ Highcharts.chart('container', {
         [-114,105],
         [-69,146],
         [-161,145],
-        [-186,179]]
+        [-186,178]]
         
     }    
     
