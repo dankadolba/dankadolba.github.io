@@ -4,10 +4,10 @@ Highcharts.chart('container', {
         
     },
     title: {
-        text: 'Art TTq B 2019-2020'
+        text: 'Arts AM8 2022-2023'
     },
     subtitle: {
-        text: '07.08.19'
+        text: '14.11.22'
     },
     xAxis: {
         gridLineWidth: 2,
